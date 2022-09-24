@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox maxHeight="Infinity" maxWidth="Infinity" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.cristian.activityrandomiser.controller.AppController">
+    <Label fx:id="labelCuvantGenerat" alignment="CENTER" maxHeight="Infinity" maxWidth="Infinity" text="Hello" textAlignment="CENTER" wrapText="true" VBox.vgrow="ALWAYS" />
+    <HBox alignment="BOTTOM_CENTER" VBox.vgrow="NEVER">
+        <VBox alignment="CENTER" HBox.hgrow="ALWAYS">
+            <Button text="Desenat" onMouseClicked="#buttonDesenatPressed"/>
+            <Label fx:id="labelDesenat"/>
+        </VBox>
+        <VBox alignment="CENTER" HBox.hgrow="ALWAYS">
+            <Button text="Vorbit" onMouseClicked="#buttonVorbitPressed"/>
+            <Label fx:id="labelVorbit" text="Label" />
+        </VBox>
+        <VBox alignment="CENTER" HBox.hgrow="ALWAYS">
+            <Button text="Mimat" onMouseClicked="#buttonMimatPressed"/>
+            <Label fx:id="labelMimat" text="Label" />
+        </VBox>
+    </HBox>
+</VBox>
